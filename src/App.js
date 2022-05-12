@@ -1,9 +1,10 @@
 import './App.css';
+import NavBar from './NavBar';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1> Clase 1 </h1>
+    <NavBar></NavBar>
     </div>
   );
 }
